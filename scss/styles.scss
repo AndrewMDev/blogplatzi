@@ -1,34 +1,30 @@
 body html {
   width: 100vw;
 }
-.header {
-  width: 10px;
-  .logo {
-    width: 20px;
-    height: 20px;
-  }
-}
-.head {
-  background-color: rgb(62, 62, 218);
-  font-size: medium;
-  font-weight: 700;
-  text-align: left;
-  box-shadow: 0px 2px 50px 0px rgb(15, 4, 4);
-  h1 {
-    color: rgb(255, 255, 255);
-    text-align: left;
-  }
-}
-#container {
+.container {
   width: 80%;
   padding: 1em;
   border: 1px solid #ddd;
   margin: 0 auto;
-  color: red;
   h2 {
     text-align: center;
   }
 }
+.header {
+  background-color: rgb(62, 62, 218);
+  font-size: medium;
+  text-align: left;
+  padding: 0.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  box-shadow: 0px 2px 50px 0px rgb(15, 4, 4);
+  .logo {
+    width: 10%;
+    vertical-align: middle;
+  }
+
+}
+
 .video {
   display: flex;
   align-items: center;
@@ -38,4 +34,7 @@ body html {
     color: blue;
     text-align: center;
   }
+}
+.post {
+  background: rgb(179, 179, 179);
 }
