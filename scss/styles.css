@@ -27,4 +27,20 @@ body html {
 #container h2 {
   text-align: center;
 }
+
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.video h2 {
+  display: inline;
+  color: blue;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
