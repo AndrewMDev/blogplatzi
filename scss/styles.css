@@ -2,6 +2,15 @@ body html {
   width: 100vw;
 }
 
+.header {
+  width: 10px;
+}
+
+.header .logo {
+  width: 20px;
+  height: 20px;
+}
+
 .head {
   background-color: #3e3eda;
   font-size: medium;
@@ -19,7 +28,7 @@ body html {
 #container {
   width: 80%;
   padding: 1em;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   margin: 0 auto;
   color: red;
 }

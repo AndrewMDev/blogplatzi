@@ -1,35 +1,41 @@
-body html{
-    width: 100vw;
+body html {
+  width: 100vw;
+}
+.header {
+  width: 10px;
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
 }
 .head {
-    background-color: rgb(62, 62, 218);
-    font-size: medium;
-    font-weight: 700;
+  background-color: rgb(62, 62, 218);
+  font-size: medium;
+  font-weight: 700;
+  text-align: left;
+  box-shadow: 0px 2px 50px 0px rgb(15, 4, 4);
+  h1 {
+    color: rgb(255, 255, 255);
     text-align: left;
-    box-shadow: 0px 2px 50px 0px rgb(15, 4, 4);
-    h1 {
-        color: rgb(255, 255, 255);
-        text-align: left;
-    }
+  }
 }
 #container {
-    width: 80%;
-    padding: 1em;
-    border: 1px solid #DDD;
-    margin: 0 auto;
-    color: red;
-    h2{
-        text-align: center;
-    }
+  width: 80%;
+  padding: 1em;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  color: red;
+  h2 {
+    text-align: center;
+  }
 }
 .video {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    h2{
-        display: inline;
-        color: blue;
-        text-align: center;
-    }
+  display: flex;
+  align-items: center;
+  width: 100%;
+  h2 {
+    display: inline;
+    color: blue;
+    text-align: center;
+  }
 }
-
